@@ -1,0 +1,11 @@
+# user_name = input('What is your name? ')
+# fav_colour = input('What is your favourite color? ')
+# print(user_name+' likes the colour '+fav_colour)
+# birth_year=input('Birth year please: ')
+# print(type(birth_year))
+# age = 2019 - int(birth_year)
+# print(age)
+# print(type(age))
+weight_in_pounds = input("Weight in pounds: ")
+weight_in_kg=float(weight_in_pounds) * 0.45
+print(weight_in_kg)

@@ -1,0 +1,30 @@
+list = [1, 'a', 2.5]
+my_list = ['Red', 'Blue', 'Green', 'Orange', 'Yellow', 'Pink']
+my_tup = ('eye', 'ears')
+print(my_tup + ('nose', 'skin'))
+print(my_tup)
+print(my_tup * 2)
+print(my_tup[-1])
+print(my_tup[1:7])
+x = my_tup[1]
+print(x)
+print(list)
+list.append('Hi')
+print(list)
+list.extend(['Hello', 'there'])
+print(list)
+list.insert(1, 'One')
+print(list)
+c = list.pop()
+print(c)
+print(my_list)
+my_list.append('Grey')
+my_list.append(["Black","White"])
+
+print(my_list)
+list_extra = ['Purple', 'Brown']
+my_list.extend(list_extra)
+print(my_list)
+lifo=my_list.pop()
+print(lifo)
+print(my_list)

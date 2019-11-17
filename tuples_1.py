@@ -1,0 +1,14 @@
+coordinates=(1,2,3)
+x=coordinates[0]
+y=coordinates[1]
+z=coordinates[2]
+print(x,y,z)
+a,b,c=coordinates
+print(a)
+print(b)
+print(c)
+numbers=(1,2,3)
+print(type(numbers))
+count=numbers.count(2)
+#print(numbers.count())
+print(count)
